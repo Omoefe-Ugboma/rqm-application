@@ -1,5 +1,5 @@
 body{
-  background-color: pink;
+  background-color: #3498db;
 } 
  .wrapper{
    height: 100vh;
@@ -7,4 +7,16 @@ body{
 
  .box{
     background-color: #fff;
+    position: relative;
  }
+
+ .fa-quote-left{
+   position:absolute;
+   opacity: 0.4;
+   top: 10px;
+   left:10px;
+ }
+ p{
+   margin-left: 2em;
+   margin-top: 2em;
+}

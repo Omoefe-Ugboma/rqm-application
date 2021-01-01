@@ -13,7 +13,14 @@ const API = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32b
 
 class App extends React.Component{
   state = {
-    quotes: [],
+    quotes: [
+
+      {
+        quote:"Life isn’t about getting and having, it’s about giving and being.",
+        author:"Kevin Kruse"
+      
+      }
+    ],
     index: 0
   }
 
@@ -43,27 +50,33 @@ class App extends React.Component{
     
     const quote = quotes[index];
 
-    console.log(index);
+    const tweetURL = `https://twitter.com/intent/tweet?
+text=${quote.quote} - ${quote.author}`;
 
     return(
       <div className="wrapper d-flex align-items-center 
       justify-content-center vh-100">
-        <div className="col-6 box p-4 rounded">
+        <div className="col-6 box p-4 rounded" id="quote-box">
             {
               quote && (
                 <div className="mb-4">
-                  <p>{quote.quote}</p>
-                  <cite className="d-block text-right">
+                  <p id="text">
+                    <i className="fa fa-quote-left fa-2x"></i>
+                    {quote.quote}
+                    </p>
+                  <cite className="d-block text-right" id="author">
                   - {quote.author}
                   </cite>
               </div>
               )
             }
             <div className="d-flex justify-content-between">
-              <a className="btn btn-primary" href="/">Tweet</a>
-              <button className="btn btn-primary" onClick=
-              {this.getRandomIndex}>
-                Get Quote
+              <a className="btn btn-sm btn-primary" target="_blank"
+              href={tweetURL} id="tweet-quote">
+                <i className="fa fa-twitter"></i> Tweet</a>
+              <button className="btn btn-sm btn-primary" onClick=
+              {this.getRandomIndex} id="new-quote">
+                <i className="fa fa-random"></i> Get Quote
                 </button>
             </div>
         
