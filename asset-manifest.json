@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rqm-application/static/css/main.4d51d844.chunk.css",
+    "main.js": "/rqm-application/static/js/main.3cbc2875.chunk.js",
+    "main.js.map": "/rqm-application/static/js/main.3cbc2875.chunk.js.map",
+    "runtime-main.js": "/rqm-application/static/js/runtime-main.55cfc9b8.js",
+    "runtime-main.js.map": "/rqm-application/static/js/runtime-main.55cfc9b8.js.map",
+    "static/css/2.8eb9e7b9.chunk.css": "/rqm-application/static/css/2.8eb9e7b9.chunk.css",
+    "static/js/2.4a9ac8c4.chunk.js": "/rqm-application/static/js/2.4a9ac8c4.chunk.js",
+    "static/js/2.4a9ac8c4.chunk.js.map": "/rqm-application/static/js/2.4a9ac8c4.chunk.js.map",
+    "static/js/3.3eb2b43b.chunk.js": "/rqm-application/static/js/3.3eb2b43b.chunk.js",
+    "static/js/3.3eb2b43b.chunk.js.map": "/rqm-application/static/js/3.3eb2b43b.chunk.js.map",
+    "index.html": "/rqm-application/index.html",
+    "static/css/2.8eb9e7b9.chunk.css.map": "/rqm-application/static/css/2.8eb9e7b9.chunk.css.map",
+    "static/css/main.4d51d844.chunk.css.map": "/rqm-application/static/css/main.4d51d844.chunk.css.map",
+    "static/js/2.4a9ac8c4.chunk.js.LICENSE.txt": "/rqm-application/static/js/2.4a9ac8c4.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/rqm-application/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55cfc9b8.js",
+    "static/css/2.8eb9e7b9.chunk.css",
+    "static/js/2.4a9ac8c4.chunk.js",
+    "static/css/main.4d51d844.chunk.css",
+    "static/js/main.3cbc2875.chunk.js"
+  ]
+}
